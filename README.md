@@ -1,4 +1,4 @@
-# The Fellowship of Rings
+# The Fellowship of Ring
 
 ## Getting Started
 
