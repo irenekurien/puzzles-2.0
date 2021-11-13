@@ -1,0 +1,56 @@
+@import '../base/animations';
+
+.splash-screen{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image:url("/media/images/bg1.jpeg");
+  z-index: 200;
+  color: white;
+  text-align: center;
+}
+
+.splash-screen.remove-splash{
+  opacity: 0;
+  z-index: -10;
+  transition:all 0.7s;
+}
+// .sub-title{
+//   margin-top: 10%;
+// }
+.fade-in{
+  margin-top: 20%;
+  animation: fade-in 1s ease-in forwards;
+  padding-bottom: 10%;
+}
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  width: 100vw; 
+  height: 100vh;
+  z-index: -10;
+}
+.side-box{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 0;
+  width: 300px;
+  margin-top: 20%;
+}
+
+.side-box .box1{
+  color: rgba(238, 3, 3, 0.6);
+  background: black;
+  text-align: right;
+  padding-right: 20%;
+}
+.side-box .box2{
+  background: rgba(238, 3, 3, 0.6);
+  color:black;
+  padding-left: 10%;
+}
