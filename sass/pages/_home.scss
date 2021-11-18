@@ -1,5 +1,10 @@
 @import '../base/animations';
 
+.home{
+  display: flex;
+  justify-content: space-between;
+}
+
 .splash-screen{
   position: fixed;
   top: 0;
@@ -38,7 +43,7 @@
   position: relative;
   margin-left: 0;
   width: 300px;
-  margin-top: 20%;
+  margin-top: 70%;
 }
 
 .side-box .box1{
@@ -51,4 +56,24 @@
   background: rgba(238, 3, 3, 0.6);
   color:black;
   padding-left: 10%;
+}
+
+.right{
+  margin-top: 5%;
+  margin-right:20px
+}
+.right-txt{
+  display: block;
+  margin-right: 12px;
+  width: 10%;
+}
+.spiral{
+  margin-top: 62px;
+  margin-left: -20px;
+}
+.sound{
+  position: relative;
+  transform: rotate(15deg);
+  margin-left: 52%;
+  margin-top: 100%;
 }

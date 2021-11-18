@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-		<title>The Fellowship Of Rings</title>
-	</head>
-	<body>
-		<div class="splash-screen">
-			<div class="fade-in"><img src="/media/images/title.png" alt=""></div>
-			<div class="sub-title"><img src="/media/images/subtitle.png" alt=""></div>
-		</div>
-		<video autoplay muted loop id="video">
-			<source src="media/videos/fellowshipofring.mp4" type="video/mp4">
-			Your browser does not support HTML5 video.
-		</video>
-		<div class="home">
-			<div class="side-box">
-				<h2 class="box1">进入幻想</h2>
-				<h2 class="box2">黒魔術と恐怖 </h2>
-			</div>
-			<button onclick="c()">Dont touch</button>
-		</div>
-	</body>
-	<script src="js/script.js"></script>
+    <title>The Fellowship Of Rings</title>
+  </head>
+  <body>
+    <div class="splash-screen">
+      <div class="fade-in"><img src="/media/images/title.png" alt="" /></div>
+      <div class="sub-title">
+        <img src="/media/images/subtitle.png" alt="" />
+      </div>
+    </div>
+    <video autoplay muted loop id="video">
+      <source src="media/videos/fellowshipofring.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="home">
+      <div class="left">
+        <div class="side-box">
+          <h2 class="box1">进入幻想</h2>
+          <h2 class="box2">黒魔術と恐怖</h2>
+        </div>
+        <img class="sound" src="/media/images/text.png" alt="" />
+        <span class="mute-button">
+          <img src="media/images/sun.png" />
+        </span>
+      </div>
+
+      <div class="right">
+        <span class="right-txt"><img src="media/images/txt.png" alt="" /></span>
+
+        <img class="spiral" src="/media/images/spiral.png" alt="" />
+      </div>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
 </html>
