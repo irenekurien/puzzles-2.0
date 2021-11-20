@@ -1,0 +1,26 @@
+@import '../base/animations';
+
+.mute-button{
+  display:inline-block;
+  cursor: pointer;
+  position: relative;
+  margin-left: 60%;
+  margin-top: -10px;
+  width: 100px;
+  height: 100px;
+}
+
+.button-circle{
+  display: none;
+  position: absolute;
+  margin-top: 17.5%;
+  margin-left: -75px;
+  z-index: -1;
+}
+// .mute-button-active{
+//   animation: rotation 10s infinite linear;
+// }
+.fas{
+  font-size: 50px;
+  color: rgb(251, 251, 251);
+}
