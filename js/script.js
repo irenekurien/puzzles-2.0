@@ -1,6 +1,6 @@
-var splash = document.querySelector(".splash-screen");
-var video = document.getElementById("video");
-var muteButton=document.querySelector(".mute-button");
+let splash = document.querySelector(".splash-screen");
+let video = document.getElementById("video");
+let muteButton=document.querySelector(".mute-button");
 video.pause();
 document.addEventListener("DOMContentLoaded", async () => {
   setTimeout(() => {
