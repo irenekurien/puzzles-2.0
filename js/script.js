@@ -2,6 +2,7 @@ const splash = document.querySelector(".splash-screen");
 const video = document.getElementById("video");
 const muteButton = document.querySelector(".mute-button");
 video.pause();
+
 document.addEventListener("DOMContentLoaded", async () => {
   setTimeout(() => {
     if (video.readyState >= 3) {
@@ -14,7 +15,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   }, 4000);
 });
 
-muteButton.addEventListener("click", toggleMute);
 function toggleMute() {
   muteButton.innerHTML = video.muted
     ? "<i class='fas fa-volume-up'></i>"
@@ -22,3 +22,5 @@ function toggleMute() {
   if (video.muted) video.muted = false;
   else video.muted = true;
 }
+
+muteButton.addEventListener("click", toggleMute);
